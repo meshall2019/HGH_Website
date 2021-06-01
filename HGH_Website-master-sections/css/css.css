@@ -1,0 +1,124 @@
+
+
+/*changeing  the Bg-Color of the NavBar */
+.navbar-expand-lg {
+
+    /* background-color: #DCDCDC; */
+    background-color: #2d6708fc;
+}
+/* -------------------------- */
+
+/* Changing The color of the items and the fontSize */
+.navbar-light .navbar-nav .nav-link {
+    /* color: #a07b0b; */
+    color: #ffffff;
+    font-size: 18px;
+}
+/* -------------------------- */
+
+/* Changing The color of the Button and its border */
+.btn-secondary {
+    
+     background-color: #2d6708fc; 
+     border-color: #2d6708fc;
+     color: #ffffff;
+     font-size: 18px;
+}
+
+.btn-secondary:hover {
+    
+    background-color: #2d6708fc; 
+    border-color: #2d6708fc;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.btn-secondary:focus{
+    
+    background-color: #DCDCDC; 
+    border-color: #DCDCDC;
+    color: #ffffff;
+    font-size: 18px;
+}
+/* -------------------------- */
+/* The Icon of the Language */
+.iconLang{
+
+    width: 50px;
+    margin: 10px;
+}
+.row{
+    padding: auto;
+    margin: auto;
+}
+
+
+/* -------------------------- */
+
+/* The Carousel imgs */
+
+.d-md-block {
+    display: block!important;
+     top: 400px; 
+     left: -200px; 
+
+}
+/* -------------------------- */
+
+/* The begin of the words  */
+.words{
+
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 20px;
+
+}
+
+.words .card{
+
+    padding: 20px;
+    margin: 10px;
+}
+
+.words img{
+border-radius: 50%;
+} 
+
+ /* The begin of the Honorary board  */
+.HonoraryBoard *{
+
+padding: 10px;
+text-align: center;
+
+}
+
+.HonoraryBoard h1,.lastnews h1{
+
+    text-align: center;
+    
+    }
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4rem;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 4rem;
+}
