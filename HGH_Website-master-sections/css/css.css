@@ -122,3 +122,48 @@ text-align: center;
     border-radius: .25rem;
     margin-top: 4rem;
 }
+
+/* The begin of the e-sevice  */
+
+.s-c1
+{
+  margin-top: 4rem;
+  justify-content: right;
+}
+
+.table-c
+{
+  margin-bottom: 5rem;
+
+}
+/* The end of the e-sevice  */
+
+ /* The begin of the footer  */
+
+ section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#footer {
+  background: #2d6708fc!important;
+  
+}
+#footer h5{
+  padding-right: 10px;
+  border-right: 5px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color:#ffffff;
+}
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;}
+  /* The end of the footer  */
