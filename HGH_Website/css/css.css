@@ -1,0 +1,285 @@
+body{
+  margin: 0px;
+  padding: 0px; 
+}
+
+/*changeing  the Bg-Color of the NavBar */
+.navbar-expand-lg {
+
+    /* background-color: #DCDCDC; */
+    background-color: #0d8c60;
+}
+/* -------------------------- */
+
+/* The padding in lg screan */
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding: 15px;
+}
+}
+
+/* -------------------------- */
+
+/* Reverse the contents in small screen */
+.navbar-nav {flex-direction: column-reverse;}
+/* -------------------------- */
+
+/* The contents of the NavBar in small screan */
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  text-align: center;
+}
+
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+  background-color: #e9ecef;
+}
+.dropdown-item{
+  text-align: center;
+}
+.dropdown-item:hover {
+
+  color: #e9ecef;
+  background-color:#0d8c60 ;
+}
+/* -------------------------- */
+
+/* Changing The color of the items and the fontSize */
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0d8c60;
+  background-color: #e9ecef;
+}
+/* -------------------------- */
+
+/* The Icon of the Language */
+.iconLang{
+
+    width: 50px;
+    margin: 10px;
+}
+.row{
+    padding: auto;
+    margin: auto;
+}
+
+/* -------------------------- */
+
+/* The Carousel imgs */
+
+.d-md-block {
+    display: block!important;
+     top: 400px; 
+     left: -200px; 
+}
+/* -------------------------- */
+
+/* The begin of the words  */
+/* .words{
+
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 20px;
+
+}
+
+.words .card{
+
+    padding: 20px;
+    margin: 10px;
+}
+
+.words img{
+border-radius: 50%;
+}  */
+
+.justify-content-between img{
+width: 250px;
+}
+.justify-content-between *{
+
+  text-align: right;
+}
+.justify-content-between *{
+
+  margin-bottom: 5px;
+}
+ /* The begin of the Honorary board  */
+.HonoraryBoard *,.lastnews *{
+
+padding: 10px;
+
+
+}
+
+.HonoraryBoard h1,.lastnews h1{
+
+    text-align: right;
+    margin-top: 80px;
+    border-right: 6px solid rgb(73, 105, 14);
+    
+    
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4rem;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 3px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+/* The E-Services Page */
+
+/* The begin of the e-sevice  */
+
+.s-c1
+{
+  margin-top: 4rem;
+  justify-content: right;
+}
+
+.table-c
+{
+  margin-bottom: 5rem;
+
+}
+
+.e-service_card{
+
+border: 1px seagreen solid;
+border-radius: 10%;
+padding: 10px;
+margin: 2px;
+}
+.e-service_card:hover{
+
+  border: 1px seagreen solid;
+  background-color: #e9ecef;
+  
+  }
+.e-service_card img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.e-service_card *{
+
+  text-align: center;
+}
+.e-service_card h4{
+  color: #2d6708fc!important;
+}
+/* The end of the e-sevice  */
+
+
+ /* The begin of the footer  */
+
+ #footer {
+  padding: 30px;
+  bottom: 0px;
+  width: 100%;
+}
+#footer .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#footer {
+  background: #0d8c60;
+  
+}
+#footer h5{
+  padding-right: 10px;
+  border-right: 5px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color:#ffffff;
+}
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;}
+  /* The end of the footer  */
+
+  /* The begin the Section Pgae */
+
+
+.s1,.s2{
+
+width: 30%;
+
+
+
+}
+/* .s1,.s2{
+
+  text-align: end;
+} */
+/* .Section_inside h5{
+top: 0;
+position: absolute;
+
+}
+.Section_inside img{
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  width: 30%;
+  height: 40%;
+
+} */
+
+.Section_inside{
+  width: 250px;
+  height: 80px;
+  position: relative;
+  margin: 5px;
+  margin-top: 100px;
+  margin-bottom: 160px;
+ 
+}
+.Section_inside img{
+  right: 0;
+  width: 80px;
+  position: absolute;
+}
+.Section_inside h4{position:absolute; bottom: 20px;color: chocolate;}
+
+.ns{
+ 
+  border-bottom: 3px solid black;
+  width: auto;
+  height: 50px;
+  background-color: #e9ecef;
+  padding: 10px;
+}
+.ns h4{
+text-align: right;
+}
