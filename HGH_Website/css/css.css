@@ -45,10 +45,9 @@ body{
 .dropdown-item:hover {
 
   color: #e9ecef;
-  background-color:#0d8c60 ;
+  background-color:#0d8c60;
 }
 /* -------------------------- */
-
 /* Changing The color of the items and the fontSize */
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
@@ -194,11 +193,6 @@ margin: 2px;
 .e-service_card h4{
   color: #2d6708fc!important;
 }
-
-.e-service-t{
-
-  margin-top: 3rem;
-}
 /* The end of the e-sevice  */
 
 
@@ -217,7 +211,6 @@ margin: 2px;
 }
 #footer {
   background: #0d8c60;
-  
 }
 #footer h5{
   padding-right: 10px;
@@ -234,33 +227,9 @@ margin: 2px;
   /* The end of the footer  */
 
   /* The begin the Section Pgae */
-
-
 .s1,.s2{
-
 width: 30%;
-
-
-
 }
-/* .s1,.s2{
-
-  text-align: end;
-} */
-/* .Section_inside h5{
-top: 0;
-position: absolute;
-
-}
-.Section_inside img{
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
-  width: 30%;
-  height: 40%;
-
-} */
-
 .Section_inside{
   width: 250px;
   height: 80px;
@@ -288,3 +257,64 @@ position: absolute;
 .ns h4{
 text-align: right;
 }
+/*----- The List Of Sections -----*/
+@media(max-width:992px){
+.section_table{
+display: none;
+width: -webkit-fill-available;
+}
+}
+svg{display: none;}
+@media(max-width:992px){
+svg{display: block;}
+}
+.section_table{
+  float: right;
+  right: 0;
+ }
+.section_table{background-color: rgba(143, 146, 146, 0.158);}
+.section_table h3{text-align: center;}
+.section_table li{border: 1px solid black;
+   list-style: none; text-align:
+    center; font-size: 20px;
+    width: 300px;margin: 10px;
+    padding: 5px;
+    cursor: context-menu;
+  }
+.section_table li:hover{
+
+  background-color: #0d8c60;
+  color: #e9ecef;
+  padding: 7px;
+  transform: scale(1);
+  transition: 0.15s all ease;
+}
+.container-fluid h4.ns{text-align: center;}
+
+@media(min-width:992px){
+.each_setcion{
+  flex-wrap: wrap;
+  border: 3px solid rgb(73, 105, 14);
+  border-radius: 6px;
+  background-color: rgba(143, 146, 146, 0.158);
+  width: 70%;
+  margin: 40px;
+  padding: 20px;
+  box-shadow: #0d8c60 1px 1px 2px 1px;
+}
+}
+@media(max-width:992px){
+.each_setcion{
+
+  flex-wrap: wrap;
+  border: 3px solid rgb(73, 105, 14);
+  border-radius: 6px;
+  background-color: rgba(143, 146, 146, 0.158);
+  padding: 20px;
+  box-shadow: #0d8c60 1px 1px 2px 1px;
+  margin-top: 10px;
+  width: 98%;
+  margin: 3px;
+  }
+}
+/* --------------------------- */
