@@ -198,32 +198,59 @@ margin: 2px;
 
  /* The begin of the footer  */
 
- #footer {
-  padding: 30px;
-  bottom: 0px;
-  width: 100%;
-}
-#footer .section-title {
-  text-align: center;
-  color: #007b5e;
-  margin-bottom: 50px;
+ 
+ footer.nb-footer {
+  background: #164c39;
+  border-top: 4px solid #828282; }
+  footer.nb-footer .about {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1170px;
+  text-align: center; }
+  footer.nb-footer .about p {
+  font-size: 13px;
+  color: #999;
+  margin-top: 30px; }
+  footer.nb-footer .about .social-media {
+  margin-top: 15px; }
+  footer.nb-footer .about .social-media ul li a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #b78c33;
+  border: 1px solid rgba(255, 255, 255, 0.3); }
+  footer.nb-footer .about .social-media ul li a:hover {
+  background: #b78c33;
+  color: rgb(255, 255, 255);
+  border-color: #b78c33; }
+  footer.nb-footer .footer-info-single {
+  margin-top: 30px; }
+  footer.nb-footer .footer-info-single .title {
+  color: #aaa;
   text-transform: uppercase;
-}
-#footer {
-  background: #0d8c60;
-}
-#footer h5{
-  padding-right: 10px;
-  border-right: 5px solid #eeeeee;
-  padding-bottom: 6px;
-  margin-bottom: 20px;
-  color:#ffffff;
-}
-#footer a {
-  color: #ffffff;
-  text-decoration: none !important;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;}
+  font-size: 16px;
+  border-right: 4px solid #8b9b00;
+  padding-right: 5px; }
+  footer.nb-footer .footer-info-single ul li a {
+  display: block;
+  color: #aaa;
+  padding: 2px 0; }
+  footer.nb-footer .footer-info-single ul li a:hover {
+  color: #b78c33; }
+  footer.nb-footer .footer-info-single p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #aaa; }
+  footer.nb-footer .copyright {
+  margin-top: 15px;
+  background: #2b2b2b;
+  color: #999; }
+  footer.nb-footer .copyright p {
+  margin: 0;
+  padding: 0; }
   /* The end of the footer  */
 
   /* The begin the Section Pgae */
