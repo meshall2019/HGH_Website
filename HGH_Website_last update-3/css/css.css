@@ -559,3 +559,20 @@ div.content {
     margin-bottom: 12px;
   
 }
+
+
+/* For the contact Page */
+
+
+
+#complain
+{
+  border-right: 0.5rem solid #007b5e;
+  
+}
+
+#form-complain{
+direction: rtl;
+}
+
+
