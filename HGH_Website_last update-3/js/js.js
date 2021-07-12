@@ -20,6 +20,7 @@ $("#info").click(function(){
 
 $(".addContents h4").text(":مستشفى حائل العام")
 $(".addContents .row h6").text("مستشفى حكومي يقدم خدمات صحية مجانية للمواطنين والسكان,افتتح المسشتفى عام ١٣٧٧ هجري خلال حكم الملك سعود بن عبدالعزيز,يقع المستشفى في منتصف مدينة حائل ويخدم حوالي ٦٠٠ مريض كل يوم")
+$(".addContents").show()
 $("#v").hide()
 
 })
@@ -28,6 +29,7 @@ $("#message").click(function(){
 
   $(".addContents h4").text(":الرسالة")
   $(".addContents .row h6").text("تقديم خدمات صحية امنه وتحسين مستمر لعملائنا,ومنع الأذى والمخاطر من الوصول لهم")
+  $(".addContents").show()
   $("#v").hide()
 })
 
@@ -35,6 +37,7 @@ $("#vision").click(function(){
 
   $(".addContents h4").text(":الرؤية")
   $(".addContents .row h6").text("ان تكون خدماتنا الصحية الافضل في المملكة العربية السعودية")
+  $(".addContents").show()
   $("#v").hide()
 })
 
@@ -59,10 +62,43 @@ $('.count').each(function () {
   });
 });
 // End of statisticsPage
+
+// For NewsPage
+
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+$(".np .justify-content-center p").append(" "+date)
+
+// End
+
+// For SeeNews Page
+
+/* for the sections (healthy - thecnical)*/
+
+$('#list-tab a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  });
+
+
+//for the contact page
+$('#customRadio1').click(function(){
+
+if($('#customRadio1').is(':checked')) {$("#label").text("الإقتراح:") }
+
+})
+
+$('#customRadio2').click(function(){
+
+  if($('#customRadio2').is(':checked')){$("#label").text("الشكوى:") }
+  
+})
+
+
+
+
 new WOW().init();
-
-// for chart page
-
 
 
 
