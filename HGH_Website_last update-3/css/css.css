@@ -430,6 +430,14 @@ div.content {
     height: auto;
     position: relative;
   }
+	
+  .link .text{
+
+    text-shadow:0px -40px 0px rgb(0, 0, 0);
+    transition:all 0.75s;
+    transform:translateY(16%) translateZ(0);
+    transition-delay:all 0.25s;
+  }
   .sidebar a {float: right;}
   div.content {margin-right: 0;}
 }
